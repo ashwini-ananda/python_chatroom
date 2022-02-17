@@ -1,0 +1,88 @@
+-----SERVER logs-----
+...STARTING SERVER...
+...SERVER RUNNING...
+[Alice] joined the conversation
+[Bob] joined the conversation
+[Chad] joined the conversation
+
+
+-----Client logs-----
+Alice: joined the conversation
+Bob: joined the conversation
+Chad: joined the conversation
+-----Client logs-----
+Alice: joined the conversation
+Bob: joined the conversation
+Chad: joined the conversation
+-----Client logs-----
+Alice: joined the conversation
+Bob: joined the conversation
+Chad: joined the conversation
+
+
+
+
+-----SERVER logs-----
+...STARTING SERVER...
+...SERVER RUNNING...
+[ash] joined the conversation
+[bob] joined the conversation
+[bob] hi
+[ash] hi
+[bob] how are you?
+[ash] im good. wau?
+[bob] im good too
+
+
+-----Client logs-----
+ash: joined the conversation
+bob: joined the conversation
+bob: hi
+ash: hi
+bob: how are you?
+ash: im good. wau?
+bob: im good too
+-----Client logs-----
+ash: joined the conversation
+bob: joined the conversation
+bob: hi
+ash: hi
+bob: how are you?
+ash: im good. wau?
+bob: im good too
+
+
+
+
+-----SERVER logs-----
+...STARTING SERVER...
+...SERVER RUNNING...
+[Alice] joined the conversation
+[Alice] Hi
+[Bob] joined the conversation
+[Bob] Hello Alice
+[Chad] joined the conversation
+[Chad] Hi everyone!
+
+
+-----Client logs-----
+Alice: joined the conversation
+Alice: Hi
+Bob: joined the conversation
+Bob: Hello Alice
+Chad: joined the conversation
+Chad Hi everyone!
+-----Client logs-----
+Alice: joined the conversation
+Alice: Hi
+Bob: joined the conversation
+Bob: Hello Alice
+Chad: joined the conversation
+Chad Hi everyone!
+-----Client logs-----
+Alice: joined the conversation
+Alice: Hi
+Bob: joined the conversation
+Bob: Hello Alice
+Chad: joined the conversation
+Chad Hi everyone!

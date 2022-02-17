@@ -1,0 +1,5 @@
+grpcio==1.21.*
+grpcio-tools==1.21.*
+protobuf==3.5.1
+six==1.11.0
+pytest
