@@ -1,0 +1,59 @@
+================================================= test session starts =================================================
+platform win32 -- Python 3.8.8, pytest-6.2.3, py-1.10.0, pluggy-0.13.1 -- C:\Users\14129\anaconda3\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\14129\College\OS\python_chatroom\app
+plugins: anyio-2.2.0
+collected 2 items
+
+test_1.py::test_scenario_1 [1, 2, 3]
+...STARTING SERVER...
+...SERVER RUNNING...
+[Alice] Good Morning
+Alice joins the chat and sends message: Good morning
+Alice: Good Morning
+Bob and Chad join the chat
+Alice: Good Morning
+Alice: Good Morning
+Bob and Chad receive the message sent by Alice, before they joined
+Bob and Chad received Alice: Good Morning
+PASSED
+
+
+
+================================================= test session starts =================================================
+platform win32 -- Python 3.8.8, pytest-6.2.3, py-1.10.0, pluggy-0.13.1 -- C:\Users\14129\anaconda3\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\14129\College\OS\python_chatroom
+plugins: anyio-2.2.0
+collected 1 item
+
+test_1.py::test_scenario_1 [1, 2, 3]
+...STARTING SERVER...
+...SERVER RUNNING...
+[Alice] Good Morning
+Alice joins the chat and sends message: Good morning
+Bob and Chad join the chat
+Bob and Chad receive the message sent by Alice, before they joined
+Bob and Chad received Alice: Good Morning
+
+app/test_1.py::test_scenario_1 PASSED                                                                            [100%]
+
+================================================= test session starts =================================================
+platform win32 -- Python 3.8.8, pytest-6.2.3, py-1.10.0, pluggy-0.13.1 -- C:\Users\14129\anaconda3\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\14129\College\OS\python_chatroom
+plugins: anyio-2.2.0
+collected 1 item
+
+test_1.py::test_scenario_1 [1, 2, 3]
+...STARTING SERVER...
+...SERVER RUNNING...
+Alice joined the chat
+Bob joined the chat
+Chad joined the chat
+Bob: Hi, Good Morning
+Alice: Hi Bob, Good Morning
+Chad receives messages
+Doug joins port but receives no messages
+
+app/test_1.py::test_scenario_1 PASSED                                                                            [100%]
